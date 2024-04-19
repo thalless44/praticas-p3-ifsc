@@ -29,10 +29,10 @@ public class MainProduto {
 		ArrayList<String> pecasb = new ArrayList<>();
 		pecasb.add("Mause");
 		pecasb.add("Monitor alienware ");
-		pecasb.add("Teclado");
+		pecasb.add("Teclado gamer");
 		pecasb.add("processador i9-13900K ");
 		b.setPecas(pecasb);
-		desktops.add(a);
+		desktops.add(b);
 		
 		ArrayList<String> pecasc = new ArrayList<>();
 		Desktop c = new Desktop();
@@ -80,6 +80,11 @@ public class MainProduto {
 			System.out.println(Desktop.isGamer());
 			System.out.println(Desktop.getCodBarras());
 			System.out.println(Desktop.getPecas());
+			
+			for (String pecasstr : Desktop.getPecas()) {
+				System.out.println(pecasstr);
+				
+			}
 		}
 		
 		
